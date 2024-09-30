@@ -1,0 +1,56 @@
+.container1{
+  display: flex;
+  background-color: red;
+}
+body{
+  background-color: rgb(44, 4, 4);
+  color: white;
+  font-weight: 900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+.container{
+  background-color: rgb(47, 56, 47);
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.navbar{
+  height: 10vh;
+}
+/* .notebook{
+  background-color: rgb(31, 13, 187);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.notebook:hover{
+  background-color: rgb(8, 191, 93);
+  border: 2px solid rgb(195, 24, 24);
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+} */
+.login-signup{
+  display: flex;
+ float: right;
+  
+}
+.signup{
+  background-color: aqua;
+  width: max-content;
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(57, 53, 78);
+  font-family:cursive;
+}
+.active{
+  color: red;
+}
+.lock{
+position: relative;
+
+  color: white;
+  background-color: rgb(71, 99, 71);
+  border-radius: 10px;
+  font-size: x-large;
+}
